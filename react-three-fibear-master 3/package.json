@@ -1,0 +1,45 @@
+{
+  "name": "react-three-fibear",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://thedevelobear.github.io/react-three-fibear/",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "postprocessing": "^6.9.0",
+    "prettier": "^1.19.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-rewards": "^1.1.2",
+    "react-scripts": "3.1.1",
+    "react-spring": "^8.0.27",
+    "react-three-fiber": "^3.0.13",
+    "react-use-gesture": "^6.0.14",
+    "three": "^0.125.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
